@@ -1,0 +1,19 @@
+{
+  "name": "ourapp",
+  "version": "1.0.0",
+  "description": "Boilerplate for Create-React-App with Added files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George C. Deschamps & Dioscar Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "mkdirp": "^1.0.4",
+    "shelljs": "^0.8.4"
+  },
+  "bin": {
+    "create-ourfb-app": "index.js"
+  }
+}
