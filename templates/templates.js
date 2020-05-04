@@ -1,10 +1,12 @@
 module.exports = {
-    'App.js': require('./App.js'),
-    'index.js': require('./index.js'),
-    'api/firebase.js': require('./api/firebase.js'),
-    'store/Actions.js': require('./store/Actions.js'),
-    'store/data.js': require('./store/data.js'),
-    'store/db.js': require('./store/db.js'),
-    'store/index.js': require('./store/index.js'),
-    'store/StoreReducer.js': require('./store/StoreReducer.js')
+    '.env': require('./env.js'),
+    '.gitignore': require('./gitignore.js'),
+    'src/App.js': require('./App.js'),
+    'src/index.js': require('./index.js'),
+    'src/api/firebase.js': require('./api/firebase.js'),
+    'src/store/Actions.js': require('./store/Actions.js'),
+    'src/store/data.js': require('./store/data.js'),
+    'src/store/db.js': require('./store/db.js'),
+    'src/store/index.js': require('./store/index.js'),
+    'src/store/StoreReducer.js': require('./store/StoreReducer.js')
   }

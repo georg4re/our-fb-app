@@ -63,7 +63,7 @@ let appDirectory = `${process.cwd()}/${appName}`
       
       Object.keys(templates).forEach((fileName, i)=>{
         promises[i] = new Promise(res=>{
-          fs.writeFile(`${appDirectory}/src/${fileName}`, templates[fileName], function(err) {
+          fs.writeFile(`${appDirectory}/${fileName}`, templates[fileName], function(err) {
               if(err) { return console.log(err) }
               res()
           })
