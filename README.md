@@ -3,26 +3,25 @@ Extends create react app to include Firebase, authentication, Authorization and 
 
 This App Generator will eventually avoid having to create Authentication/Authorization and other reused mechanisms over and over when starting a new React App. 
 
-Create React App Build Status PRs Welcome
-Create React apps with no build configuration.
-
-Creating an App – How to create a new app.
+### Creating an App – How to create a new app.
 User Guide – How to develop apps bootstrapped with Create React App.
 Create React App works on macOS, Windows, and Linux.
 If something doesn’t work, please file an issue.
 If you have questions or need help, please ask in our Spectrum community.
 
 Quick Overview
-npm install -g create-react-app
-npm install -g ourapp
+```bash
 npx create-ourfb-app my-app
 cd my-app
 npm start
+```
 
 Then open http://localhost:3000/ to see your app.
 When you’re ready to deploy to production, create a minified bundle with npm run build.
 
+```bash
 npm start
+```
 
 Get Started Immediately
 You don’t need to install or configure tools like webpack or Babel.
@@ -36,20 +35,15 @@ You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local
 To create a new app, you may choose one of the following methods:
 
 npx
+```bash
 npx create-react-app my-app
+```
 (npx is a package runner tool that comes with npm 5.2+ and higher, see instructions for older npm versions)
-
-npm
-npm init react-app my-app
-npm init <initializer> is available in npm 6+
-
-Yarn
-yarn create react-app my-app
-yarn create <starter-kit-package> is available in Yarn 0.25+
 
 It will create a directory called my-app inside the current folder.
 Inside that directory, it will generate the initial project structure and install the transitive dependencies:
 
+```bash
 my-app
 ├── README.md
 ├── node_modules
@@ -78,9 +72,13 @@ my-app
     ├── logo.svg
     └── serviceWorker.js
     └── setupTests.js
+```
 Once the installation is done, you can open your project folder:
 
+```bash
 cd my-app
+```
+
 Inside the newly created project, you can run some built-in commands:
 
 npm start or yarn start
